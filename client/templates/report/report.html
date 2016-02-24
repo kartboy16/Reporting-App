@@ -1,0 +1,89 @@
+<template name='report'>
+  <div class="container-fluid">
+    <div class="row row-advertising" id="report_image">
+      <div class="col-sm-6">
+        <button class="btn btn-lg btn-primary btn-block {{isPhoneOrTablet}}" id="create_pdf">Download as PDF</button>
+      </div>
+      <div class="col-sm-6">
+        <button class="btn btn-lg btn-primary btn-block" id="send_as_email">Email Report</button>
+      </div>
+    </div>
+    <br>
+    <div class="row row-report">
+      <div class="container-report" id="full_report">
+        <div class="row report-header">
+          <div class="col-md-8"><h2 class="section_header">Report</h2></div>
+          <div class="col-md-4">
+            <div class="business_card">
+              <span class="card_detail"><strong>Joe Smith</strong></span>
+            </div>
+          </div>
+        </div>
+        
+        <hr>
+        
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Part 1: Info</p>
+          </div>
+        </div> <!-- /row -->
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Part 2: Info</p>  
+          </div>
+        </div>
+        
+        <hr>
+        
+        <div class="row">
+          <div class="col-sm-4">
+            <p>Part 3: Info</p>
+          </div>
+          <div class="col-sm-8">
+            <p>Part 4: Info</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Values</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Needed Values</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-sm-12">
+                <p>Part 5: Info</p>
+              </div>
+            </div>
+            <div class="row" id="equal-note">
+              <div class="col-sm-4 text-center">
+                <p>Option 1</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <p>Image Jar</p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <p>Option 2</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <p>Remaining</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="text-center">Copyright</p>
+          </div>
+        </div>
+      </div> <!-- /container-report -->
+    </div> <!-- /row-report -->
+  </div>
+</template>

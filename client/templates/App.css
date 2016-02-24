@@ -1,0 +1,79 @@
+/* CSS declarations go here */
+
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+html { height:100%; }
+body { position:absolute; top:0; bottom:0; right:0; left:0; }
+
+.input-field {
+  padding-bottom: 10px;
+  height: 45px;
+}
+
+.v-center {
+  vertical-align: middle;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 20px rgba(0,0,0, .2);
+}
+
+.panel {
+  transition: box-shadow 0.5s;
+/*  min-height: 500px;*/
+}
+
+.slider {
+  padding-top: 10px;
+}
+
+#incomeStageSlider {
+  padding-left: 20px;
+}
+
+.label-container {
+  margin-top: 10px;
+}
+
+.form-signin, .form-signup {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox, .form-signup .form-signup-heading,
+.form-signup .checkbox {
+  margin-bottom: 10px;
+}
+
+body#form_layout {
+/*  padding-top: 40px;*/
+/*  padding-bottom: 40px;*/
+  background-color: #eee;
+}
+
+.form-signin input[type="email"], .form-signup input[type="email"],
+.form-signin input[type="password"], .form-signup input[type="password"],
+.form-signin input[type="text"], .form-signup input[type="text"]  {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.slider-container {
+  padding-left: 15px;
+}
+
+.navbar-brand {
+  padding: 0px 0px 0px 20px;
+}
+
+#logo {
+  height: 50px;
+}
+
+.nav {
+  padding-top: 5px;
+}

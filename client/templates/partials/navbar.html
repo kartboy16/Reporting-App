@@ -1,0 +1,16 @@
+<template name='navbar'>
+    <div class="header clearfix">
+        <nav class="navbar navbar-default">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              LOGO
+            </a>
+          </div>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="{{active 'dashboard'}}"><a href="/dashboard">Report Builder</a></li>
+            <li role="presentation" class="{{active 'report'}}"><a href="/report">Report</a></li>
+            <li class='logout-btn' role="presentation"><a href="#">Logout</a></li>
+          </ul>
+        </nav>
+      </div>
+</template>
